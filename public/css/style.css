@@ -6,40 +6,44 @@
   text-decoration: none;
   text-align: center;
 }
-h2{
+h2 {
   color: rgb(55, 55, 131);
   font-size: 3em;
 }
-
-li{
- list-style: none;
- margin-top: 1em;
+.lane {
+  background-color: rgb(202, 197, 197);
+  display: flex;
+  text-align: center;
 }
-em{
-  font-size:2.1rem;
+li {
+  list-style: none;
+  margin-top: 1em;
+  font-size: 1.6em;
 }
-img { 
-  max-width:2.5rem ;
-  max-height:2.5rem ;
+em {
+  font-size: 2.1rem;
+}
+img {
+  max-width: 2.5rem;
+  max-height: 2.5rem;
   object-fit: cover;
 }
-.container{
+.container {
   padding: 1em;
 }
-.grid{
+.grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto;
 }
-fieldset{
+fieldset {
   border: none;
   display: flex;
   flex-direction: column;
 }
-input{
-  
+input {
   font-size: 110%;
 }
-.boton{
+.boton {
   padding: 0.2em;
 }
